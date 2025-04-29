@@ -1,6 +1,6 @@
 # 📈 Health Calculator Service
 
-A simple Python Flask-based web application and API to calculate BMI and BMR values. Built to demonstrate cloud deployment using Docker, GitHub Actions CI/CD, and Azure App Service.
+A simple Python Flask-based web application and API to calculate BMI and BMR values. Built to demonstrate cloud deployment using Docker, GitHub Actions CI/CD, and Microsoft Azure App Service.
 
 ---
 

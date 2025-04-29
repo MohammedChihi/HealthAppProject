@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health Calculator</title>
+</head>
+<body>
+    <h1>Health Calculator App</h1>
+    
+    <form action="/bmi" method="post">
+        <h2>Calculate BMI</h2>
+        Height (m): <input type="text" name="height"><br>
+        Weight (kg): <input type="text" name="weight"><br>
+        <input type="submit" value="Calculate BMI">
+    </form>
+
+    <form action="/bmr" method="post">
+        <h2>Calculate BMR</h2>
+        Height (cm): <input type="text" name="height"><br>
+        Weight (kg): <input type="text" name="weight"><br>
+        Age: <input type="text" name="age"><br>
+        Gender (male/female): <input type="text" name="gender"><br>
+        <input type="submit" value="Calculate BMR">
+    </form>
+
+</body>
+</html>
